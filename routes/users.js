@@ -50,7 +50,6 @@ router.post('/', [
         });
 
     } catch (err) {
-        console.error("err from users.js", err.message);
         res.status(500).send("Server error");
     }
 
